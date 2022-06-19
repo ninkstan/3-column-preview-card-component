@@ -152,7 +152,7 @@ img {
     /* CAR 1 */
 
     .car1 {
-        width: 270px;
+        width: 280px;
         height: 450px;
         border-radius: 10px 10px 0 0;
     }
@@ -164,7 +164,7 @@ img {
     /* CAR 2 */
 
     .car2 {
-        width: 270px;
+        width: 280px;
         height: 450px;
     }
 
@@ -175,7 +175,7 @@ img {
     /* CAR 3 */
 
     .car3 {
-        width: 270px;
+        width: 280px;
         height: 450px;
         border-radius: 0 0 10px 10px;
     }
