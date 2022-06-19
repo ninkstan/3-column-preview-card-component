@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* typo */
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin: 25px 0 25px 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 3px;
+    line-height: 24px;
+}
+
+/* container */
+
+main {
+    width: 70%;
+    margin: 8em auto;
+    display: flex;
+}
+
+.text-box {
+    height: 200px;
+}
+
+/* button */
+
+button {
+    text-decoration: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* icon */
+
+img {
+    margin-bottom: 5px;
+}
+
+/* CAR 1 */
+
+.car1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 450px;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.car1-div {
+    margin: 50px 50px 50px 50px;
+}
+
+.car1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.car1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* CAR 2 */
+
+.car2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 450px;
+    height: 500px;
+}
+
+.car2-div {
+    margin: 50px 50px 50px 50px;
+}
+
+
+.car2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.car2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* CAR 3 */
+
+.car3 {
+    background-color: hsl(179, 100%, 13%);
+    width: 450px;
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+}
+
+.car3-div {
+    margin: 50px 50px 50px 50px;
+}
+
+.car3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.car3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* Attribution */
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 375px) {
+
+    /* container */
+
+    main {
+        margin: 5em 1em;
+        display: grid;
+    }
+
+    .text-box {
+        height: 160px;
+    }
+
+    /* CAR 1 */
+
+    .car1 {
+        width: 270px;
+        height: 450px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .car1-div {
+        margin: 50px 40px 50px 40px;
+    }
+
+    /* CAR 2 */
+
+    .car2 {
+        width: 270px;
+        height: 450px;
+    }
+
+    .car2-div {
+        margin: 50px 40px 50px 40px;
+    }
+
+    /* CAR 3 */
+
+    .car3 {
+        width: 270px;
+        height: 450px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .car3-div {
+        margin: 50px 40px 50px 40px;
+    }
+
+    /* Attribution */
+    
+    .attribution {
+        font-size: 12px;
+        text-align: center;
+    }
+}
